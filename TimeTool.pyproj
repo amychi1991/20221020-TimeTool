@@ -31,15 +31,27 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="manage.py" />
+    <Compile Include="recorder\admin.py" />
+    <Compile Include="recorder\apps.py" />
+    <Compile Include="recorder\migrations\__init__.py" />
+    <Compile Include="recorder\models.py" />
+    <Compile Include="recorder\tests.py" />
+    <Compile Include="recorder\views.py" />
+    <Compile Include="recorder\__init__.py" />
     <Compile Include="TimeTool\__init__.py" />
     <Compile Include="TimeTool\settings.py" />
     <Compile Include="TimeTool\urls.py" />
     <Compile Include="TimeTool\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="recorder\templates\recorder\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="recorder\" />
+    <Folder Include="recorder\migrations\" />
+    <Folder Include="recorder\templates\" />
+    <Folder Include="recorder\templates\recorder\" />
     <Folder Include="TimeTool\" />
   </ItemGroup>
   <ItemGroup>
